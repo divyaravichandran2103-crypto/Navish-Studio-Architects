@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NavishStudio Architects - Modern Architecture Design Studio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+</script>
+</head>
+
+<body>
+
+<header class="header">
+<div class="logo">
+<h2>NavishStudio</h2>
+<span class="tagline">Architects</span>
+</div>
+<nav class="nav">
+<a href="#about" class="nav-link">About</a>
+<a href="#services" class="nav-link">Services</a>
+<a href="#arvr" class="nav-link">AR / VR</a>
+<a href="#portfolio" class="nav-link">Projects</a>
+<a href="#experience" class="nav-link">Experience</a>
+<a href="#contact" class="nav-link">Contact</a>
+</nav>
+<div class="mobile-menu-toggle">
+<i class="fas fa-bars"></i>
+</div>
+</header>
+
+<section class="hero" id="hero">
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<h1 class="hero-title">NavishStudio Architects</h1>
+<p class="hero-subtitle">Designing Dream Spaces with Innovation</p>
+<div class="hero-buttons">
+<a class="btn btn-primary" href="#portfolio">View Projects</a>
+<a class="btn btn-secondary" href="#contact">Get Quote</a>
+</div>
+<div class="hero-stats">
+<div class="stat">
+<span class="stat-number">2000+</span>
+<span class="stat-label">Projects</span>
+</div>
+<div class="stat">
+<span class="stat-number">6+</span>
+<span class="stat-label">Years</span>
+</div>
+<div class="stat">
+<span class="stat-number">500+</span>
+<span class="stat-label">Clients</span>
+</div>
+</div>
+</div>
+<div class="scroll-indicator">
+<div class="scroll-arrow"></div>
+<span class="scroll-text">Scroll Down</span>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">About NavishStudio</h2>
+<div class="divider"></div>
+</div>
+<div class="about-content">
+<div class="about-text">
+<p class="about-description">
+NavishStudio is a professional architecture and design studio with 6+ years of experience 
+and more than 2000 successful projects. We specialize in modern home design, commercial 
+architecture, and innovative space planning.
+</p>
+<p class="about-description">
+Our team of talented architects and designers brings creativity, technical expertise, 
+and passion to every project, transforming visions into stunning realities.
+</p>
+<div class="about-features">
+<div class="feature">
+<i class="fas fa-award"></i>
+<span>Award Winning Designs</span>
+</div>
+<div class="feature">
+<i class="fas fa-users"></i>
+<span>Expert Team</span>
+</div>
+<div class="feature">
+<i class="fas fa-clock"></i>
+<span>On-Time Delivery</span>
+</div>
+</div>
+</div>
+<div class="about-image">
+<div class="image-wrapper">
+<img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625" alt="Modern Architecture">
+<div class="image-overlay"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="services" class="services">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Our Services</h2>
+<div class="divider"></div>
+</div>
+<div class="cards">
+<div class="card" data-tilt>
+<div class="card-icon">
+<i class="fas fa-home"></i>
+</div>
+<h3>Residential Architecture</h3>
+<p>Modern house planning and 3D visualization for your dream home with innovative design solutions.</p>
+</div>
+
+<div class="card" data-tilt>
+<div class="card-icon">
+<i class="fas fa-building"></i>
+</div>
+<h3>Commercial Architecture</h3>
+<p>Office buildings, malls, and commercial spaces designed for maximum functionality and aesthetics.</p>
+</div>
+
+<div class="card" data-tilt>
+<div class="card-icon">
+<i class="fas fa-couch"></i>
+</div>
+<h3>Interior Design</h3>
+<p>Luxury interior design and smart space planning to create beautiful and functional living spaces.</p>
+</div>
+
+<div class="card" data-tilt>
+<div class="card-icon">
+<i class="fas fa-cube"></i>
+</div>
+<h3>3D Visualization</h3>
+<p>High-quality architectural 3D models and renderings to visualize your project before construction.</p>
+</div>
+
+<div class="card" data-tilt>
+<div class="card-icon">
+<i class="fas fa-tree"></i>
+</div>
+<h3>Landscape Design</h3>
+<p>Beautiful outdoor spaces and garden design that complement your architecture and enhance lifestyle.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="arvr" id="arvr">
+
+<h2>Explore Your Dream Home in AR & VR</h2>
+
+<p>
+Experience Navish Studio architectural designs in immersive
+Augmented Reality and Virtual Reality.
+</p>
+
+<div class="arvr-grid">
+
+<div class="ar-card">
+
+<h3>Interactive 3D Architecture</h3>
+
+<model-viewer
+src="https://modelviewer.dev/shared-assets/models/House.glb"
+ar
+camera-controls
+auto-rotate
+shadow-intensity="1"
+style="width:100%; height:420px;">
+</model-viewer>
+
+</div>
+
+
+<div class="vr-card">
+
+<h3>Virtual Reality Walkthrough</h3>
+
+<iframe
+width="100%"
+height="420"
+src="https://my.matterport.com/show/?m=J6nZ2Z2k8kF"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="portfolio" class="portfolio">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Our Projects</h2>
+<div class="divider"></div>
+</div>
+<div class="portfolio-filters">
+<button class="filter-btn active" data-filter="all">All Projects</button>
+<button class="filter-btn" data-filter="residential">Residential</button>
+<button class="filter-btn" data-filter="commercial">Commercial</button>
+<button class="filter-btn" data-filter="interior">Interior</button>
+</div>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea">
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c">
+<img src="https://images.unsplash.com/photo-1600585152915-d208bec867a1">
+</div>
+</div>
+</section>
+
+<section id="experience" class="experience">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Our Achievements</h2>
+<div class="divider"></div>
+</div>
+<div class="counters">
+<div class="counter" data-target="2000">
+<div class="counter-icon">
+<i class="fas fa-project-diagram"></i>
+</div>
+<h2 class="counter-number">0</h2>
+<p class="counter-label">Projects Completed</p>
+</div>
+
+<div class="counter" data-target="6">
+<div class="counter-icon">
+<i class="fas fa-calendar-alt"></i>
+</div>
+<h2 class="counter-number">0</h2>
+<p class="counter-label">Years Experience</p>
+</div>
+
+<div class="counter" data-target="500">
+<div class="counter-icon">
+<i class="fas fa-smile"></i>
+</div>
+<h2 class="counter-number">0</h2>
+<p class="counter-label">Happy Clients</p>
+</div>
+
+<div class="counter" data-target="50">
+<div class="counter-icon">
+<i class="fas fa-award"></i>
+</div>
+<h2 class="counter-number">0</h2>
+<p class="counter-label">Awards Won</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container">
+<div class="section-header">
+<h2 class="section-title">Contact Us</h2>
+<div class="divider"></div>
+</div>
+<div class="contact-content">
+<div class="contact-info">
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-envelope"></i>
+</div>
+<div class="contact-details">
+<h3>Email</h3>
+<p>navishstudioarchitects@gmail.com</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-phone"></i>
+</div>
+<div class="contact-details">
+<h3>Phone</h3>
+<p>8667025588</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<div class="contact-details">
+<h3>Location</h3>
+<p>Design Studio, India</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-clock"></i>
+</div>
+<div class="contact-details">
+<h3>Working Hours</h3>
+<p>Mon - Sat: 9:00 AM - 7:00 PM</p>
+</div>
+</div>
+</div>
+<div class="contact-form-wrapper">
+<form class="contact-form">
+<h3>Send us a Message</h3>
+<div class="form-group">
+<input type="text" placeholder="Name" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="Email" required>
+</div>
+<div class="form-group">
+<textarea placeholder="Message" rows="5" required></textarea>
+</div>
+<button type="submit" class="btn-submit">Send</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-content">
+<div class="footer-section">
+<h3>NavishStudio</h3>
+<p>Creating innovative architectural designs that inspire and transform spaces.</p>
+<div class="social-links">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+</div>
+</div>
+<div class="footer-section">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="#about">About Us</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+<div class="footer-section">
+<h3>Contact Info</h3>
+<p><i class="fas fa-envelope"></i> navishstudioarchitects@gmail.com</p>
+<p><i class="fas fa-phone"></i> 8667025588</p>
+<p><i class="fas fa-map-marker-alt"></i> Design Studio, India</p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2026 NavishStudio Architects. All rights reserved. | Designed with <i class="fas fa-heart"></i> by Navish</p>
+</div>
+</div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
